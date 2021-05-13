@@ -10,7 +10,7 @@ public class Main {
                 "арбуз", "яблоко", "слива", "вишня", "арбуз",
                 "хурма", "виноград", "слива", "инжир", "арбуз"
         );
-
+       
         Set<String> unique = new HashSet<String>(fruit);
         System.out.println("Первоначальный массив");
         System.out.println(fruit.toString());
