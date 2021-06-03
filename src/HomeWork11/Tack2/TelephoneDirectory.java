@@ -18,7 +18,7 @@ public class TelephoneDirectory {
             List<String> numbers = book.get(name);
             if(!numbers.contains(number)){
                 numbers.add(number);
-                System.out.println("Номер телефон " + number + " добавлен для фамилии " + name);
+                System.out.println("Номер телефона " + number + " добавлен для фамилии " + name);
             } else {
                 System.out.println("Номер телефона " + number + " уже существует для фамилии " + name);
             }
