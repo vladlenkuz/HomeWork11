@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args){
         System.out.println("Создаем справочник");
         TelephoneDirectory telephoneDirectory = new TelephoneDirectory();
-        System.out.println("-----------------");
+        System.out.println("------------------");
 
         System.out.println("Наполняем справочник");
         telephoneDirectory.add("Иванов", "89543567815");
